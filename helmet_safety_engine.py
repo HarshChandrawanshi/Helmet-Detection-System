@@ -21,7 +21,6 @@ Use Cases:
 - Construction site safety oversight
 - Industrial facility monitoring
 - Safety training and education
-
 Real-Time Helmet & PPE Compliance Monitoring System
 Developer: Harsh Chandrawanshi
 Evaluation Build - Computer Vision & Deep Learning Lab
