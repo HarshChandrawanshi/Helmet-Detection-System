@@ -1,5 +1,5 @@
 # Core dependencies for Workplace Safety Monitor
-opencv-python>=4.8.0
+opencv-python-headless>=4.8.0
 numpy>=1.21.0
 
 # Optional dependencies for advanced YOLO models
