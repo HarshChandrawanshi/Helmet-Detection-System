@@ -17,6 +17,7 @@ Key Features:
 
 Use Cases:
 - Workplace safety monitoring and compliance
+
 - Access control systems (facility entry with proper PPE)
 - Construction site safety oversight
 - Industrial facility monitoring
@@ -740,8 +741,7 @@ def build_argparser() -> argparse.Namespace:
     p.add_argument('--person-weights', type=str, default='yolo12n.pt', help='Ultralytics model for person')
     p.add_argument('--person-conf', type=float, default=0.45, help='Confidence for person detector')
     # PPE model (choose one)
-    p.add_argument('--ppe-weights', type=str, default='', help='Ultralytics .pt weights for PPE (helmet/vest)')
-    p.add_argument('--ppe-onnx', type=str, default='', help='YOLOv7 ONNX model for PPE')
+p.add_argument('--ppe-weights', type=str, default='', help='Ultralytics .pt weights for PPE (helmet/vest)')    p.add_argument('--ppe-onnx', type=str, default='', help='YOLOv7 ONNX model for PPE')
     p.add_argument('--class-names', nargs='*', default=['helmet', 'vest'], help='Class names for ONNX model')
     p.add_argument('--input-size', type=int, default=640, help='ONNX input size (square)')
     # Thresholds / NMS
